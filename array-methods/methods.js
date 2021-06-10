@@ -86,7 +86,33 @@ let numbers = [1, 2, 43, 56, 2, 9];
 // console.log(numbers);
 // console.log(mainArray);
 
-const { name, email, age, ...rest } = users[0];
+// FILTER
 
-console.log(name, email, age);
-console.log(rest.social);
+// let filterArray = users.filter(user => {
+//   return user.age >= 29 || user.email.endsWith("@academlo.com");
+// });
+
+// console.log(filterArray);
+// console.log(users);
+
+//FIND
+
+// let findNumber = numbers.find(number => number > 10);
+
+// let findArray = users.find(user => {
+//   return user.age > 40;
+// });
+
+// console.log(findNumber);
+
+// SOME
+
+// let someArray = users.some(user => user.age > 29);
+// console.log(someArray);
+
+//DESESTRUCTURACION Y SPREAD OPERATOR
+
+// const { name, email, age, ...rest } = users[0];
+
+// console.log(name, email, age);
+// console.log(rest.name);
